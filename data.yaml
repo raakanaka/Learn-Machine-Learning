@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['apart_parking', 'blackbox', 'disabled_parking', 'etc', 'highpass', 'navigator']
+
+roboflow:
+  workspace: bekhzod-olimov
+  project: disabled-sign-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bekhzod-olimov/disabled-sign-detection/dataset/1
